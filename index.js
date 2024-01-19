@@ -12,14 +12,7 @@ class Header extends HTMLElement {
         <div id="nav">
             <nav role="navigation">
                 <a href="../about.html">about</a>
-                <div class="dropdown">
-                    <button class="dropbutton" role="button">works ⌄</button>
-                    <div class="dropdown-content">
-                        <a href="#" role="link">concert pieces</a>
-                        <a href="#" role="link">installations</a>
-                        <a href="#" role="link">experiments</a>
-                    </div>
-                </div>
+                <a href="../works.html">works</a>
             </nav>
         </div>
       </header>
