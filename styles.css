@@ -45,6 +45,9 @@ body {
     radial-gradient(ellipse at 0% 80%, #0C4433, transparent 80%),
     radial-gradient(ellipse at 80% 100%, #070707, transparent 90%);
   background-blend-mode: screen;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: auto;
 }
 
@@ -202,7 +205,7 @@ header {
 }
 
 #workspage-content h3 {
-  font-size: 35px;
+  font-size: 35;
 }
 
 #workspage-content ul {
