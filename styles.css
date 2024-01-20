@@ -13,12 +13,12 @@ h1 {
 
 h2 {
   margin-left: 10vw;
-  font-size: 47px;
+  font-size: 40px;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 a {
@@ -199,6 +199,10 @@ header {
 
 #workspage-content {
   text-align: center;
+}
+
+#workspage-content h3 {
+  font-size: 35px;
 }
 
 #workspage-content ul {
