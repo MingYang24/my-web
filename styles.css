@@ -209,3 +209,28 @@ header {
 #workspage-content ul li {
   list-style: none;
 }
+
+/* Individual project pages */
+
+.projectpage-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 20vw;
+  gap: 30px;
+}
+
+.projectpage-content a {
+  font-size: 20px;
+}
+
+.projectpage-content a, p {
+  display: block;
+}
+
+.projectpage-content .programme-note {
+  width: 40vw;
+  text-align: left;
+}
