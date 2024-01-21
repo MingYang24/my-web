@@ -11,8 +11,8 @@ class Header extends HTMLElement {
         </div>
         <div id="nav">
             <nav role="navigation">
-                <a href="../about.html">about</a>
-                <a href="../works.html">works</a>
+                <a href="../about.html">about <span>→</span></a>
+                <a href="../works.html">works <span>→</span></a>
             </nav>
         </div>
       </header>
