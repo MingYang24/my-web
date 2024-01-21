@@ -17,6 +17,12 @@ h2 {
   font-weight: 400;
 }
 
+@media only screen and (max-width: 880px) {
+  h2 {
+    margin: 0 10vw;
+  }
+}
+
 h3 {
   font-size: 20px;
 }
@@ -189,6 +195,31 @@ header {
 #aboutpage-content img {
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 1360px) {
+  #aboutpage-content {
+    align-items: center;
+    margin: 5vh 10vw;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  #aboutpage-content {
+    flex-direction: column;
+    margin: 0 10vw;
+  }
+
+  #aboutpage-content > * {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #aboutpage-content #text {
+    margin: 0;
+  }
+}
+
 
 /* Works Page */
 
