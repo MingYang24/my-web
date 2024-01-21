@@ -264,3 +264,64 @@ header {
   width: 40vw;
   text-align: left;
 }
+
+iframe {
+  width: calc(1920px / 2); 
+  height: calc(1080px / 2); 
+}
+
+@media only screen and (max-width: 1190px) {
+  iframe {
+    width: calc(1920px / 3); 
+    height: calc(1080px / 3); 
+  }
+}
+
+@media only screen and (max-width: 865px){
+  iframe {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .long-h2 {
+    font-size: 35px;
+  }
+
+  .projectpage-content {
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .projectpage-content .programme-note {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  iframe {
+    width: calc(1920px / 4); 
+    height: calc(1080px / 4); 
+  }
+} 
+
+@media only screen and (max-width: 525px) {
+  iframe {
+    width: calc(1920px / 5); 
+    height: calc(1080px / 5); 
+  }
+} 
+
+@media only screen and (max-width: 525px) {
+  iframe {
+    width: calc(1920px / 5); 
+    height: calc(1080px / 5); 
+  }
+} 
+
+@media only screen and (max-width: 390px) {
+  iframe {
+    width: calc(1920px / 6); 
+    height: calc(1080px / 6); 
+  }
+} 
