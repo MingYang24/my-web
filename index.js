@@ -13,6 +13,7 @@ class Header extends HTMLElement {
             <nav>
                 <a href="../../about.html">about <span>→</span></a>
                 <a href="../../works.html">works <span>→</span></a>
+                <a href="../../research.html">research <span>→</span></a>
             </nav>
         </div>
       </header>
