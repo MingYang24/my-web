@@ -22,3 +22,27 @@ class Header extends HTMLElement {
   }
   
   customElements.define("header-component", Header);
+
+// pdf modal
+let modalBtns = document.querySelectorAll(".modal-btn");
+let modal = document.getElementById("pdf-modal");
+var span = document.getElementsByClassName("close")[0];
+
+modalBtns.forEach(function(btn) {
+    btn.onclick = function() {
+        modal.style.display = "block";
+        let pdfUrl = btn.getAttribute("data-pdf-url");
+        document.getElementById("pdf-frame").src = pdfUrl;
+    }
+});
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
