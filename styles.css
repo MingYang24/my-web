@@ -35,6 +35,20 @@ a:hover {
   text-decoration: underline;
 }
 
+.show-if-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 810px) {
+  .show-if-desktop {
+    display: none;
+  }
+
+  .show-if-mobile {
+    display: block;
+  }
+}
+
 /* page background */
 body {
   height: 100vh;
@@ -202,20 +216,20 @@ header {
 
 /* Works Page */
 
-#workspage-content {
+.indexpage-content {
   text-align: center;
 }
 
-#workspage-content h3 {
+.indexpage-content h3 {
   font-size: 35;
 }
 
-#workspage-content ul {
+.indexpage-content ul {
   margin: 0;
   padding: 0;
 }
 
-#workspage-content ul li {
+.indexpage-content ul li {
   list-style: none;
 }
 
