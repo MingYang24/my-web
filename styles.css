@@ -169,6 +169,12 @@ header {
   }
 }
 
+@media only screen and (max-width: 1063px) {
+  #aboutpage-content img {
+    width: 30vw;
+  }
+}
+
 @media only screen and (max-width: 880px) {
   #aboutpage-content {
     flex-direction: column;
@@ -177,6 +183,10 @@ header {
 
   #aboutpage-content > * {
     margin-bottom: 20px;
+  }
+
+  #aboutpage-content img {
+    width: 80vw;
   }
 }
 
@@ -258,7 +268,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0 20vw;
+  margin-bottom: 25px;
   gap: 30px;
 }
 
