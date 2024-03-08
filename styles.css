@@ -141,6 +141,10 @@ header {
   header #nav a span {
       display: inline;
   }
+
+  #homepage-content {
+    display: none;
+  }
 }
 
 /* About Page */
